@@ -13,7 +13,8 @@ column_map = {
     "LeetCode": "Paste your Leetcode profile link"
 }
 
-FASTAPI_URL = "http://localhost:8000"  # Change to your deployed backend URL
+FASTAPI_URL = "https://fastapi-backend.onrender.com"
+  # Change to your deployed backend URL
 
 def extract_github_username(value):
     from urllib.parse import urlparse
